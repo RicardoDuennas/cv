@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Container holding the image and the text */
+.imgContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.display-11 {
+  font-family: 'Bellota Text', display;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.vidiframe {
+  margin-bottom: 30px;
+}
+
+.introh1 {
+  min-height: 500px;
+}
+
+.small-font-tag{
+
+}
