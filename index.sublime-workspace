@@ -1,0 +1,284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"gallery",
+				"gallery4"
+			],
+			[
+				"Se",
+				"SeV-2020"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ric/Documents/GitHub/cv/cv.html",
+		"/Users/ric/Documents/GitHub/cv/cv-source.html",
+		"/Users/ric/Documents/GitHub/cv/contacto.html",
+		"/Users/ric/Documents/GitHub/cv/info.html",
+		"/Users/ric/Documents/GitHub/cv/index.html",
+		"/Users/ric/Documents/GitHub/cv/proys.html",
+		"/Users/ric/Downloads/BingImageCreator-main/src/BingImageCreator.py",
+		"/Users/ric/Downloads/BingImageCreator-main/LICENSE",
+		"/Users/ric/Downloads/BingImageCreator-main/setup.cfg",
+		"/Users/ric/Downloads/BingImageCreator-main/test/test_example.py",
+		"/Users/ric/Downloads/BingImageCreator-main/setup.py",
+		"/Users/ric/Documents/Cursos/pythonApps/genImg/genImg.py",
+		"/Users/ric/Documents/Cursos/py/pythonBook/03-03-hydrocarbonWeight.py",
+		"/Users/ric/Documents/Cursos/py/pythonBook/03-02-costPizza.py",
+		"/Users/ric/Documents/Cursos/py/pythonBook/03-01-volumeArea.py",
+		"/Users/ric/Documents/GitHub/cv/proys/ficciones-orbitantes.html",
+		"/Users/ric/Downloads/cv/recuperados/index.html",
+		"/Users/ric/Downloads/cv/recuperados/cv.html",
+		"/Users/ric/Downloads/cv/recuperados/contacto.html",
+		"/Users/ric/Downloads/cv/recuperados/transfonico.html",
+		"/Users/ric/Downloads/cv/recuperados/schYZoph.html",
+		"/Users/ric/Downloads/cv/recuperados/perklaps.html",
+		"/Users/ric/Downloads/cv/recuperados/respira-bogota.html",
+		"/Users/ric/Downloads/cv/recuperados/sinthmatic.html",
+		"/Users/ric/Downloads/cv/recuperados/add.css",
+		"/Users/ric/Downloads/cv/recuperados/style.css",
+		"/Users/ric/Downloads/cv/recuperados/bootstrap.min.css",
+		"/Users/ric/Downloads/cv/recuperados/mbr-additional.css",
+		"/Users/ric/Documents/HV/Proyectos.html",
+		"/Users/ric/Downloads/cv/contacto.html",
+		"/Users/ric/Downloads/cv/cv-source.html",
+		"/Users/ric/Documents/GitHub/cv/proys/eV-2020.html",
+		"/Users/ric/Downloads/cv/proys.html",
+		"/Users/ric/Downloads/cv/cv.html",
+		"/Users/ric/Documents/GitHub/cv/assets/bootstrap/css/bootstrap-grid.min.css",
+		"/Users/ric/Documents/GitHub/cv/proys/perklaps.html",
+		"/Users/ric/Documents/GitHub/cv/assets/jpg/tn copy/fscrop.py",
+		"/Users/ric/Downloads/cv/proys/derivador.html",
+		"/Users/ric/Downloads/cv/proys/proyecto.html",
+		"/Users/ric/Downloads/cv/proys/perklaps.html",
+		"/Users/ric/Downloads/cv/proys/fuente.html",
+		"/Users/ric/Downloads/cv/proys/web.html",
+		"/Users/ric/Downloads/cv/proys/vajillas-corona.html",
+		"/Users/ric/Downloads/cv/proys/acciones-directas.html",
+		"/Users/ric/Downloads/cv/proys/taller-barcu.html",
+		"/Users/ric/Downloads/cv/proys/transfonico.html",
+		"/Users/ric/Downloads/cv/proys/semana-suenos-belen.html",
+		"/Users/ric/Downloads/cv/proys/obleas-sonoras.html",
+		"/Users/ric/Downloads/cv/proys/proyecto-2415017.html",
+		"/Users/ric/Downloads/cv/proys/respira-bogota.html",
+		"/Users/ric/Downloads/cv/proys/sinthmatic.html",
+		"/Users/ric/Downloads/cv/proys/schYZoph.html",
+		"/Users/ric/Downloads/cv/proys/SeV-2020.html",
+		"/Users/ric/Downloads/boto-master/gallery.html",
+		"/Users/ric/Downloads/cv/assets/gallery/css/slicknav.min.css",
+		"/Users/ric/Downloads/cv/assets/gallery/css/slick.css",
+		"/Users/ric/Downloads/cv/assets/gallery/js/fresco.min.js",
+		"/Users/ric/Downloads/cv/assets/gallery/css/stylet.css",
+		"/Users/ric/Downloads/cv/proys/juegos.html",
+		"/Users/ric/Downloads/cv/proys/costurero-electrico.html",
+		"/Users/ric/Downloads/cv/assets/gallery/js/main.js",
+		"/Users/ric/Downloads/cv/proyecto.html",
+		"/Users/ric/Downloads/cv/index.html",
+		"/Users/ric/Downloads/cv/assets/mobirise/css/mbr-additional.css",
+		"/Users/ric/Downloads/cv/assets/gallery/css/style.css",
+		"/Users/ric/Downloads/cv/assets/gallery/css/styler.css",
+		"/Users/ric/Downloads/cv/assets/theme/css/style.css",
+		"/Users/ric/Downloads/cv/assets/theme/js/script.js",
+		"/Users/ric/Downloads/cv/assets/theme/css/styleu.css",
+		"/Users/ric/Downloads/cv/assets/gallery/js/slick.min.js",
+		"/Users/ric/Downloads/cv/assets/gallery/js/demo/demo.js",
+		"/Users/ric/Downloads/Portafolio/01-Derivador/info.txt",
+		"/Users/ric/Downloads/Portafolio/17-SeV-2020/info.txt",
+		"/Users/ric/Downloads/Portafolio/16-schYZoph/info.txt",
+		"/Users/ric/Downloads/Portafolio/15-sinthMatic/info.txt",
+		"/Users/ric/Downloads/Portafolio/14-Respira/info.txt",
+		"/Users/ric/Downloads/Portafolio/13-Telefono/info.txt",
+		"/Users/ric/Downloads/Portafolio/12-Obleas/info.txt",
+		"/Users/ric/Downloads/Portafolio/09-Pintura/info.txt",
+		"/Users/ric/Downloads/Portafolio/10-Transfonico/info.txt",
+		"/Users/ric/Downloads/Portafolio/11-Belen/info.txt",
+		"/Users/ric/Downloads/Portafolio/08-Acciones/info.txt",
+		"/Users/ric/Downloads/Portafolio/07-Corona/info.txt",
+		"/Users/ric/Downloads/Portafolio/06-Web/info.txt",
+		"/Users/ric/Downloads/Portafolio/03-Juegos/info.txt",
+		"/Users/ric/Downloads/Portafolio/02-Costurero/info.txt",
+		"/Volumes/Ricardoux/Users/ricardo/.bash_history",
+		"/Users/ric/Documents/HV/2023/HV Idartes.html",
+		"/Users/ric/Downloads/of_v0.11.2_osx_release/examples/3d/3DModelLoaderExample/bin/data/penguin.ply",
+		"/Users/ric/Documents/HV/2023-12 Idartes/HV personal.html",
+		"/Users/ric/Documents/GitHub/domoSatelite/bin/data/satellite.ply",
+		"/Users/ric/Downloads/of_v0.11.2_osx_release/examples/gl/glInfoExample/bin/data/openglReport.txt",
+		"/Users/ric/Downloads/of_v0.11.2_osx_release/apps/ofxDomemaster-master/example/config.make",
+		"/Users/ric/Documents/GitHub/navegadorArtesElectronicas/script.js",
+		"/Users/ric/Documents/GitHub/navegadorArtesElectronicas/index.html",
+		"/Users/ric/Documents/GitHub/navegadorArtesElectronicas/index2.html",
+		"/Users/ric/Documents/HV/2023-08 Eddie/HV personal.html",
+		"/Volumes/Nuevo vol/HV/2023-08 Eddie/HV personal.html",
+		"/Users/ric/Downloads/planeacionAEText.html",
+		"/Users/ric/Downloads/RemoteObserver-master/RemoteController/AndroidManifest.xml",
+		"/Users/ric/Documents/Processing/android_appEspacializaNuevoOSC/AndroidManifest.xml",
+		"/Applications/Pd-l2ork.app/Contents/Resources/app.nw/extra/hid/Makefile",
+		"/Applications/Pd-l2ork.app/Contents/Resources/app.nw/extra/hid/README",
+		"/Applications/Pd-l2ork.app/Contents/Resources/app.nw/extra/hid/TODO",
+		"/Users/ric/Downloads/whatsapp-log/content-script.js",
+		"/Users/ric/Downloads/whatsapp_stalker-master/js/sweetalert2.min.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 501.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

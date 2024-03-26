@@ -25,9 +25,18 @@
 }
 
 .introh1 {
-  min-height: 500px;
+  min-height: 400px;
+}
+
+.introh3 {
+  min-height: 300px;
 }
 
 .small-font-tag{
 
+}
+
+.imgCont{
+  max-height: 400px;
+  max-width: 300px;
 }
