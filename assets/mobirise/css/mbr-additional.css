@@ -33,6 +33,11 @@ body {
 .display-5 > .mbr-iconfont {
   font-size: 2.5rem;
 }
+.display-6 {
+  font-family: 'Bellota Text', display;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
 .display-7 {
   font-family: 'Bellota Text', display;
   font-size: 1.2rem;
@@ -44,26 +49,30 @@ body {
 
 .display-9 {
   font-family: 'Bellota Text', display;
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.5;
+  color: #4d4d4d;
 }
 .display-9 > .mbr-iconfont {
-  font-size: 1.2rem;
+  font-size: .9rem;
 }
 
 
 .card {
-        background: #fafafa;
-        -webkit-transition: background 0.6s; /* For Safari 3.0 to 6.0 */
-        transition: background 0.6s; /* For modern browsers */
+        background: #60606036;
+        -webkit-transition: background 0.3s; /* For Safari 3.0 to 6.0 */
+        transition: background 0.3s; /* For modern browsers */
       }
 
 .card:hover{
-  background: #4fd90b;
+  background: #fbfbfb;
 }
 
 .gray-100{
-  background-color: #fafafa;
+  background-color: #60606036;
+  border-color: #b0b0b0;
+  border-width: 1px;
+  border-style: solid;
 }
 
 /* ---- Fluid typography for mobile devices ---- */
