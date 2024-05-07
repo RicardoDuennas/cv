@@ -2476,4 +2476,10 @@ a {
   overflow: hidden;
 }
 
+.embed-responsive-item {
+  width: 100%;
+}
 
+.ratio-3x4{
+  --bs-aspect-ratio:calc(4 / 3 * 100%);
+}
