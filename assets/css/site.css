@@ -493,40 +493,6 @@ html:not(.js) .js-only {
   text-align: center;
 }
 
-/* Efecto de luz en las tarjetas: la imagen se ilumina levemente y un destello
-   diagonal la recorre una vez. También se activa con el foco del teclado. */
-.card .thumb {
-  position: relative;
-}
-
-.card .thumb img {
-  transition: filter 0.5s ease, transform 0.8s ease;
-}
-
-.card .thumb::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.28) 50%, transparent 65%);
-  transform: translateX(-110%);
-  pointer-events: none;
-}
-
-.card a:hover .thumb img,
-.card a:focus-visible .thumb img {
-  filter: brightness(1.1) saturate(1.06);
-  transform: scale(1.02);
-}
-
-.card a:hover .thumb::after,
-.card a:focus-visible .thumb::after {
-  transform: translateX(110%);
-  transition: transform 0.9s ease;
-}
-
-[data-theme="dark"] .card .thumb::after {
-  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.14) 50%, transparent 65%);
-}
 
 /* --- Proyectos ---------------------------------------------------------- */
 
@@ -729,15 +695,6 @@ html:not(.js) .js-only {
     transition: none !important;
     animation: none !important;
     scroll-behavior: auto !important;
-  }
-
-  .card .thumb::after {
-    display: none;
-  }
-
-  .card a:hover .thumb img,
-  .card a:focus-visible .thumb img {
-    transform: none;
   }
 }
 
