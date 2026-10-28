@@ -245,11 +245,18 @@ html:not(.js) .js-only {
   background: var(--accent);
 }
 
+.prefs {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 2.5rem;
+}
+
 .lang {
   display: flex;
   gap: 0.75rem;
   margin: 0;
-  padding: 2.5rem 0 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -266,22 +273,21 @@ html:not(.js) .js-only {
   font-weight: 600;
 }
 
+/* Mismo tratamiento que los idiomas: sin caja, gris y acento al pasar. */
 .theme-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  min-width: 24px;
+  min-height: 24px;
   padding: 0;
-  border: 1px solid var(--rule);
-  border-radius: 50%;
-  background: var(--bg);
-  color: var(--text);
+  border: 0;
+  background: none;
+  color: var(--muted);
   cursor: pointer;
 }
 
 .theme-toggle:hover {
-  border-color: var(--accent);
   color: var(--accent);
 }
 
@@ -327,12 +333,8 @@ html:not(.js) .js-only {
     flex: 1;
   }
 
-  .lang {
+  .prefs {
     margin-top: auto;
-  }
-
-  .theme-toggle {
-    margin-top: 1.25rem;
   }
 
   .menu-toggle {
@@ -386,7 +388,7 @@ html:not(.js) .js-only {
     padding: 0.5rem 0;
   }
 
-  .lang {
+  .prefs {
     padding: 1rem 0 0.5rem 0.875rem;
   }
 
@@ -397,10 +399,7 @@ html:not(.js) .js-only {
   }
 
   .theme-toggle {
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-    z-index: 5;
+    min-height: 44px;
   }
 
   main {
@@ -408,7 +407,7 @@ html:not(.js) .js-only {
   }
 
   .site-footer {
-    padding: 0 1.25rem 5rem; /* espacio para el botón de tema fijo */
+    padding: 0 1.25rem 2rem;
   }
 }
 
@@ -481,7 +480,6 @@ html:not(.js) .js-only {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: opacity 0.2s ease;
 }
 
 .placeholder {
@@ -495,8 +493,39 @@ html:not(.js) .js-only {
   text-align: center;
 }
 
-a:hover .thumb img {
-  opacity: 0.88;
+/* Efecto de luz en las tarjetas: la imagen se ilumina levemente y un destello
+   diagonal la recorre una vez. También se activa con el foco del teclado. */
+.card .thumb {
+  position: relative;
+}
+
+.card .thumb img {
+  transition: filter 0.5s ease, transform 0.8s ease;
+}
+
+.card .thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.28) 50%, transparent 65%);
+  transform: translateX(-110%);
+  pointer-events: none;
+}
+
+.card a:hover .thumb img,
+.card a:focus-visible .thumb img {
+  filter: brightness(1.1) saturate(1.06);
+  transform: scale(1.02);
+}
+
+.card a:hover .thumb::after,
+.card a:focus-visible .thumb::after {
+  transform: translateX(110%);
+  transition: transform 0.9s ease;
+}
+
+[data-theme="dark"] .card .thumb::after {
+  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.14) 50%, transparent 65%);
 }
 
 /* --- Proyectos ---------------------------------------------------------- */
@@ -700,6 +729,15 @@ a:hover .thumb img {
     transition: none !important;
     animation: none !important;
     scroll-behavior: auto !important;
+  }
+
+  .card .thumb::after {
+    display: none;
+  }
+
+  .card a:hover .thumb img,
+  .card a:focus-visible .thumb img {
+    transform: none;
   }
 }
 

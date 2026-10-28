@@ -11,8 +11,8 @@ behance = "https://www.behance.net/ricardoduenas"
 featured = "vortex-nukak"
 also = ["ficciones-orbitantes", "eV-2020", "universo-telemachina"]
 
-tagline_es = "Ingeniero electrónico, programador de medios interactivos, docente de artes electrónicas, bailarín casual de tango."
-tagline_en = "Electronics engineer, interactive media programmer, electronic arts teacher, casual tango dancer."
+tagline_es = "Ingeniería electrónica, medios interactivos, artes electrónicas."
+tagline_en = "Electronic engineering, interactive media, electronic arts."
 
 description_es = "Portafolio y CV de Ricardo Alfonzo Dueñas, ingeniero electrónico y desarrollador Unity: ingeniería aplicada a la creación artística, interacción, realidad virtual y artes electrónicas."
 description_en = "Portfolio and CV of Ricardo Alfonzo Dueñas, electronics engineer and Unity developer: engineering applied to artistic creation, interaction, virtual reality and electronic arts."
@@ -93,8 +93,8 @@ He stands out for bringing diverse disciplines into dialogue in the service of a
 """
 
 [cv]
-headline_es = "Ingeniero electrónico · Bogotá, Colombia"
-headline_en = "Electronics engineer · Bogotá, Colombia"
+headline_es = "Ingeniero electrónico, medios interactivos, artes electrónicas · Bogotá, Colombia"
+headline_en = "Electronics engineer, interactive media, electronic arts · Bogotá, Colombia"
 
 profile_title_es = "Perfil"
 profile_title_en = "Profile"
