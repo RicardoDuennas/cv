@@ -482,6 +482,16 @@ html:not(.js) .js-only {
   object-fit: cover;
 }
 
+/* Zoom suave de la miniatura al pasar el cursor o con el foco del teclado. */
+.card .thumb img {
+  transition: transform 0.8s ease;
+}
+
+.card a:hover .thumb img,
+.card a:focus-visible .thumb img {
+  transform: scale(1.02);
+}
+
 .placeholder {
   display: flex;
   align-items: center;
