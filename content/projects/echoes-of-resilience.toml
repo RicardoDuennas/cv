@@ -1,0 +1,22 @@
+title = "Echoes of Resilience"
+sort = "2024-4"
+year = "2024"
+date_es = "2024"
+date_en = "2024"
+role_es = "Programador técnico de gameplay; dirección del diseño narrativo"
+role_en = "Technical gameplay programmer; narrative design lead"
+tech_es = "Unity, realidad virtual"
+tech_en = "Unity, virtual reality"
+description_es = "*Echoes of Resilience* es un videojuego de escape room en realidad virtual inspirado en la vida de Charlotte von Mahlsdorf, una figura LGBTQ+ real que sobrevivió a la Alemania nazi y preservó la historia de su comunidad."
+description_en = "*Echoes of Resilience* is a VR escape room game inspired by the life of Charlotte von Mahlsdorf, a real LGBTQ+ figure who survived Nazi Germany and preserved the history of her community."
+thumb = "tn/thumbnail-22-echoes-of-resilience.jpg"
+images = { prefix = "22-ricardo-duenas-echoes-of-resilience", count = 5 }
+
+[[links]]
+url = "https://ricdu.itch.io/echoes-of-resilience"
+label = "itch.io"
+
+[[links]]
+url = "https://ricardoduennas.github.io/gameDevPortfolio/"
+label_es = "Portafolio de videojuegos"
+label_en = "Game dev portfolio"

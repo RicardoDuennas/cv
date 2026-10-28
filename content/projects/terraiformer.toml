@@ -1,0 +1,21 @@
+title = "TerrAIformer"
+sort = "2024-2"
+year = "2024"
+date_es = "2024"
+date_en = "2024"
+role_es = "Generación procedural de niveles y parte de las mecánicas de juego"
+role_en = "Procedural level generation and some of the game mechanics"
+tech = "Unity"
+description_es = "Un planeta alienígena está completamente vacío: solo una IA especializada en terraformación podrá devolverle su antiguo esplendor mientras lo defiende de la fuerza invasora que lo destruyó."
+description_en = "An alien planet is completely vacant, only an AI specialized in Terraforming will be able to return it to its former glory while defending it from the invading force that destroyed it in the first place."
+thumb = "tn/thumbnail-24-terraiformer.jpg"
+images = { prefix = "24-ricardo-duenas-terraiformer", count = 4 }
+
+[[links]]
+url = "https://ricdu.itch.io/terraiformer"
+label = "itch.io"
+
+[[links]]
+url = "https://ricardoduennas.github.io/gameDevPortfolio/"
+label_es = "Portafolio de videojuegos"
+label_en = "Game dev portfolio"

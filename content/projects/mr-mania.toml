@@ -1,0 +1,23 @@
+title = "Mr. Mania"
+sort = "2024-1"
+year = "2024"
+date_es = "2024"
+date_en = "2024"
+place_es = "Game Jam de un día de Generation Colombia"
+place_en = "Generation Colombia 1-day Game Jam"
+role_es = "Parte de las mecánicas y de las interacciones sonoras"
+role_en = "Some of the mechanics and sound interactions"
+tech = "Unity"
+description_es = "Prototipo rápido de videojuego creado para la Game Jam de un día de Generation Colombia."
+description_en = "A rapid game prototype made for the Generation Colombia 1-day Game Jam."
+thumb = "tn/thumbnail-25-mr-mania.jpg"
+images = { prefix = "25-ricardo-duenas-mr-mania", count = 5 }
+
+[[links]]
+url = "https://coltaketa.itch.io/mr-mania"
+label = "itch.io"
+
+[[links]]
+url = "https://ricardoduennas.github.io/gameDevPortfolio/"
+label_es = "Portafolio de videojuegos"
+label_en = "Game dev portfolio"

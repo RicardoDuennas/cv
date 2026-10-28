@@ -1,0 +1,21 @@
+title = "Asha's Ascent"
+sort = "2024-3"
+year = "2024"
+date_es = "2024"
+date_en = "2024"
+role_es = "Parte de las mecánicas de combate, programación de sonido, depuración y refactorización de código"
+role_en = "Some of the combat mechanics, sound programming, debugging and code refactoring"
+tech = "Unity"
+description_es = "Acompaña a Asha, una luchadora dedicada que progresa y perfecciona sus habilidades de combate."
+description_en = "Join Asha, a dedicated fighter who progresses and evolves her combat skills."
+thumb = "tn/thumbnail-23-ashas-ascent.jpg"
+images = { prefix = "23-ricardo-duenas-ashas-ascent", count = 5 }
+
+[[links]]
+url = "https://nosmow.itch.io/ashasascent"
+label = "itch.io"
+
+[[links]]
+url = "https://ricardoduennas.github.io/gameDevPortfolio/"
+label_es = "Portafolio de videojuegos"
+label_en = "Game dev portfolio"
