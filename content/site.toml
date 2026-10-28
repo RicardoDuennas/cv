@@ -152,6 +152,15 @@ label_en = "Used in projects"
 items = "Pure Data, Processing, Blender, NDI, ActionScript 3.0, PHP"
 
 [[cv.experience]]
+dates_es = "Mar 2026 – actual"
+dates_en = "Mar 2026 – present"
+org = "Universidad de Antioquia – Programa Creación Digital"
+role_es = "Docente universitario – Asignatura “Código y Lenguaje 5: Automatización”"
+role_en = "Professor – “Code and Language 5: Automation” course"
+detail_es = "Facultad de Artes en asocio con la Facultad de Comunicaciones y Filología."
+detail_en = "Faculty of Arts in partnership with the Faculty of Communications and Philology."
+
+[[cv.experience]]
 dates_es = "Abr 2025 – actual"
 dates_en = "Apr 2025 – present"
 org = "Universidad de Antioquia"
