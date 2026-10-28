@@ -16,7 +16,7 @@ description_en = "Robotics programming and on-stage performance for Mapa Teatro'
 cv_es = "Vortex Nukak (Mapa Teatro)"
 cv_en = "Vortex Nukak (Mapa Teatro)"
 thumb = "tn/thumbnail-21-vortex-nukak.jpg"
-images = { prefix = "21-ricardo-duenas-vortex-nukak", count = 10 }
+images = { prefix = "21-ricardo-duenas-vortex-nukak", count = 16 }
 
 [[links]]
 url = "https://www.festival-automne.com/en/edition-2025/mapa-teatro-le-vortex-nukak-la-voragine-mas-alla"
