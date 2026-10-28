@@ -7,7 +7,7 @@ base_url = "https://ricardoduennas.github.io/cv/"
 email = "ricardoduennas@gmail.com"
 linkedin = "https://www.linkedin.com/in/ricardo-alfonzo-interaction-dev/"
 behance = "https://www.behance.net/ricardoduenas"
-# instagram = "https://www.instagram.com/…"   (pendiente: aparece en Contacto al definirla)
+instagram = "https://www.instagram.com/rdafz"
 featured = "vortex-nukak"
 also = ["ficciones-orbitantes", "eV-2020", "universo-telemachina"]
 
