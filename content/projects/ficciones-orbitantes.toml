@@ -30,7 +30,7 @@ My contribution: interdisciplinary development of an interactive visualization a
 """
 cv_es = "Ficciones orbitantes (Laboratorio Mapa Teatro / Plataforma Bogotá)"
 cv_en = "Ficciones orbitantes (Mapa Teatro Lab / Plataforma Bogotá)"
-thumb = "thumbnail-19-ficciones-orbitantes.jpg"
+thumb = "tn/thumbnail-19-ficciones-orbitantes.jpg"
 images = { prefix = "19-ricardo-duenas-ficciones-orbitantes", count = 17 }
 
 [[links]]

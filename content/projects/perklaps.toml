@@ -20,7 +20,7 @@ The ensemble performed at electronic music venues such as the independent cultur
 """
 cv_es = "PerkLaps"
 cv_en = "PerkLaps"
-thumb = "thumbnail-04-perklaps.jpg"
+thumb = "tn/thumbnail-04-perklaps.jpg"
 images = { prefix = "04-ricardo-duenas-perklaps", count = 12 }
 videos = [
   "https://player.vimeo.com/video/128841164?h=8aff396b9a",

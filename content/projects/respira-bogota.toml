@@ -13,6 +13,6 @@ description_es = "Acción directa – intervención en espacio público del Cole
 description_en = "Direct action – public space intervention by Colectivo ATOMUS on Transmilenio, Bogotá."
 cv_es = "Respira Bogotá – Colectivo ATOMUS"
 cv_en = "Respira Bogotá – Colectivo ATOMUS"
-thumb = "thumbnail-14-bogota-respira.jpg"
+thumb = "tn/thumbnail-14-bogota-respira.jpg"
 images = { prefix = "14-ricardo-duenas-bogota-respira", count = 8 }
 videos = ["https://player.vimeo.com/video/253684903?h=59432caa1b"]

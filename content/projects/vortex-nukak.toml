@@ -3,7 +3,9 @@ sort = "2026"
 year = "2025–2026"
 date_es = "2025 – 2026"
 date_en = "2025 – 2026"
-place_es = "*Le Vortex Nukak* – Festival d'Automne, París, Francia (2025); *Vortex Nukak* – Theater der Welt, Chemnitz, Alemania (2026)"
+cities_es = "París, Chemnitz"
+cities_en = "Paris, Chemnitz"
+place_es ="*Le Vortex Nukak* – Festival d'Automne, París, Francia (2025); *Vortex Nukak* – Theater der Welt, Chemnitz, Alemania (2026)"
 place_en = "*Le Vortex Nukak* – Festival d'Automne, Paris, France (2025); *Vortex Nukak* – Theater der Welt, Chemnitz, Germany (2026)"
 role_es = "Programación de robótica y performance en escena"
 role_en = "Robotics programming and on-stage performance"
@@ -13,7 +15,7 @@ description_es = "Programación de robótica y performance en escena para la obr
 description_en = "Robotics programming and on-stage performance for Mapa Teatro's large-scale piece *Vortex Nukak*. Paris, France (2025). Chemnitz, Germany (2026)."
 cv_es = "Vortex Nukak (Mapa Teatro)"
 cv_en = "Vortex Nukak (Mapa Teatro)"
-thumb = "thumbnail-21-vortex-nukak.jpg"
+thumb = "tn/thumbnail-21-vortex-nukak.jpg"
 images = { prefix = "21-ricardo-duenas-vortex-nukak", count = 10 }
 
 [[links]]

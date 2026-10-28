@@ -11,5 +11,5 @@ tech_en = "Arduino, interaction programming"
 credits = "Ricardo Alfonzo Dueñas / Costurero Eléctrico"
 description_es = "Dispositivo portátil para derivar por la ciudad – Universidad Nacional de Colombia."
 description_en = "A portable device for drifting through the city – Universidad Nacional de Colombia."
-thumb = "thumbnail-01-derivador.jpg"
+thumb = "tn/thumbnail-01-derivador.jpg"
 images = { prefix = "01-ricardo-duenas-derivador", count = 9 }

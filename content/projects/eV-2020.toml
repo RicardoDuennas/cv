@@ -15,7 +15,7 @@ description_es = "eV-2020 es un entorno virtual sonoro para la interacción con 
 description_en = "eV-2020 is a virtual sound environment for interacting with audio material produced by students from Bogotá public schools within Idartes' Crea program. It was presented at the 2020 Crea Idartes Diversity Festival and the 2020 Crea Art Salon. Approach the floating 3D objects and chase the spheres to hear the sounds."
 cv_es = "eV-2020"
 cv_en = "eV-2020"
-thumb = "thumbnail-17-eV-2020.jpg"
+thumb = "tn/thumbnail-17-eV-2020.jpg"
 images = { prefix = "17-ricardo-duenas-sev-2020", count = 5 }
 
 [[links]]

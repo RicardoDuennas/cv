@@ -14,5 +14,5 @@ description_es = "Transfónico es un traje transmisor FM de baja potencia que tr
 description_en = "Transfónico is a low-power FM transmitter suit that broadcasts soundscapes and sounds, integrating the components needed to transmit (antenna, transmitter and mixer). When worn, the suit becomes an independent radio station that lets its wearer seek calm and tranquility through sound while sharing that calm with others: anyone nearby with a radio receiver or a phone with FM radio."
 cv_es = "Transfónico – Traje transmisor FM"
 cv_en = "Transfónico – FM transmitter suit"
-thumb = "thumbnail-10-transfonico.jpg"
+thumb = "tn/thumbnail-10-transfonico.jpg"
 images = { prefix = "10-ricardo-duenas-transfonico", count = 15 }

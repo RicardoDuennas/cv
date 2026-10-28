@@ -22,7 +22,7 @@ Navigate the virtual space and trigger the sound tracks by approaching the colum
 """
 cv_es = "Universo Telemachina"
 cv_en = "Universo Telemachina"
-thumb = "thumbnail-18-universo-telemachina.jpg"
+thumb = "tn/thumbnail-18-universo-telemachina.jpg"
 images = { prefix = "18-ricardo-duenas-universo-telemachina", count = 5 }
 
 [[links]]

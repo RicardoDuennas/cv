@@ -6,8 +6,10 @@ full_name = "Ricardo Alfonzo Dueñas Parada"
 base_url = "https://ricardoduennas.github.io/cv/"
 email = "ricardoduennas@gmail.com"
 linkedin = "https://www.linkedin.com/in/ricardo-alfonzo-interaction-dev/"
-github = "https://github.com/ricardoduennas"
-featured = "la-voragine-mas-alla"
+behance = "https://www.behance.net/ricardoduenas"
+# instagram = "https://www.instagram.com/…"   (pendiente: aparece en Contacto al definirla)
+featured = "vortex-nukak"
+also = ["ficciones-orbitantes", "eV-2020", "universo-telemachina"]
 
 tagline_es = "Ingeniero electrónico, programador de medios interactivos, docente de artes electrónicas, bailarín casual de tango."
 tagline_en = "Electronics engineer, interactive media programmer, electronic arts teacher, casual tango dancer."
@@ -41,6 +43,8 @@ print = "Imprimir CV"
 email = "Correo"
 portrait_alt = "Retrato de Ricardo Alfonzo Dueñas"
 featured = "Proyecto reciente"
+more = "Otros proyectos"
+theme_dark = "Tema oscuro"
 
 [ui.en]
 language = "English"
@@ -68,6 +72,8 @@ print = "Print CV"
 email = "Email"
 portrait_alt = "Portrait of Ricardo Alfonzo Dueñas"
 featured = "Recent project"
+more = "More projects"
+theme_dark = "Dark theme"
 
 [info]
 portrait = "assets/images/infoImg-RicardoDuenas.jpg"
@@ -289,5 +295,5 @@ title_es = "Diplomado en Diseño Curricular"
 title_en = "Diploma in Curriculum Design"
 
 [contact]
-intro_es = "Puedes escribirme por correo o encontrarme en LinkedIn y GitHub."
-intro_en = "You can reach me by email or find me on LinkedIn and GitHub."
+intro_es = "Puedes escribirme por correo o encontrarme en estas redes."
+intro_en = "You can reach me by email or find me on these networks."

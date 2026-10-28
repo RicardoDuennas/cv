@@ -11,6 +11,6 @@ tech_en = "Arduino, multichannel audio, live signal processing"
 credits = "Ricardo Alfonzo Dueñas"
 description_es = "Desarrollo de software y hardware para instalación interactiva, tratamiento de señal en vivo."
 description_en = "Software and hardware development for an interactive installation with live signal processing."
-thumb = "thumbnail-05-fuente.jpg"
+thumb = "tn/thumbnail-05-fuente.jpg"
 images = { prefix = "05-ricardo-duenas-fuente-instalacion-interactiva", count = 7 }
 videos = ["https://vimeo.com/253820889"]

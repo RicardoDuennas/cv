@@ -13,6 +13,6 @@ description_es = "Instalación sonora interactiva en Casa B durante la celebraci
 description_en = "Interactive sound installation at Casa B during the Belén Week of Dreams celebration, Bogotá."
 cv_es = "Semana de los sueños en Belén"
 cv_en = "Belén Week of Dreams"
-thumb = "thumbnail-11-suenos-belen.jpg"
+thumb = "tn/thumbnail-11-suenos-belen.jpg"
 images = { prefix = "11-ricardo-duenas-semana-de-los-suenos-en-belen", count = 3 }
 videos = ["https://vimeo.com/253679633"]

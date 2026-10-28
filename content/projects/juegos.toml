@@ -8,5 +8,5 @@ role_en = "Software development"
 tech = "ActionScript 3.0"
 description_es = "Desarrollo de software para juegos publicitarios."
 description_en = "Software development for advertising games."
-thumb = "thumbnail-03-juegos.jpg"
+thumb = "tn/thumbnail-03-juegos.jpg"
 images = { prefix = "03-ricardo-duenas-juegos-publicitarios", count = 6 }

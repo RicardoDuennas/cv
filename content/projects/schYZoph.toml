@@ -13,6 +13,6 @@ description_es = "Video instalación de arte generativo presentada en el Salón 
 description_en = "Generative art video installation presented at the 2020 Crea Art Salon."
 cv_es = "schYZoph"
 cv_en = "schYZoph"
-thumb = "thumbnail-16-schyzoph.jpg"
+thumb = "tn/thumbnail-16-schyzoph.jpg"
 images = { prefix = "16-ricardo-duenas-schyzoph", count = 1 }
 videos = ["https://player.vimeo.com/video/857583477?h=6b088382b6"]

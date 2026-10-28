@@ -13,6 +13,6 @@ description_es = "Taller de experimentación sonora con drawdio modificado y gas
 description_en = "Sound experimentation workshop combining a modified Drawdio and gastronomy, for young people in San Basilio de Palenque."
 cv_es = "Obleas sonoras"
 cv_en = "Obleas sonoras"
-thumb = "thumbnail-12-obleas-sonoras.jpg"
+thumb = "tn/thumbnail-12-obleas-sonoras.jpg"
 images = { prefix = "12-ricardo-duenas-obleas-sonoras", count = 2 }
 videos = ["https://vimeo.com/192665267", "https://vimeo.com/192659362"]

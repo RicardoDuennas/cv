@@ -12,5 +12,5 @@ credits_es = "Dirección: Esteban Rey"
 credits_en = "Directed by Esteban Rey"
 description_es = "Espacio multidisciplinar de experimentación en interacción, electrónica y artes dirigido por el profesor Esteban Rey en la Universidad Nacional de Colombia."
 description_en = "A multidisciplinary space for experimentation in interaction, electronics and the arts, led by Professor Esteban Rey at the Universidad Nacional de Colombia."
-thumb = "thumbnail-02-costurero-electrico.jpg"
+thumb = "tn/thumbnail-02-costurero-electrico.jpg"
 images = { prefix = "02-ricardo-duenas-costurero-electrico", count = 9 }

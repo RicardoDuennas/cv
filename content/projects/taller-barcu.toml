@@ -8,5 +8,5 @@ role_en = "Artist, workshop leader"
 tech = "Drawdio, Arduino"
 description_es = "Jugando con pinturas y sonidos electrónicos en la feria de arte Barcú."
 description_en = "Playing with paint and electronic sounds at the Barcú art fair."
-thumb = "thumbnail-09-taller-barcu.jpg"
+thumb = "tn/thumbnail-09-taller-barcu.jpg"
 images = { prefix = "09-ricardo-duenas-pintura-y-sonido", count = 15 }

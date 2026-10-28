@@ -13,5 +13,5 @@ description_es = "Instalación sonora interactiva presentada en el Festival de A
 description_en = "Interactive sound installation presented at the 2019 Crea Art Festival."
 cv_es = "SinthMatic"
 cv_en = "SinthMatic"
-thumb = "thumbnail-15-sinthmatic.jpg"
+thumb = "tn/thumbnail-15-sinthmatic.jpg"
 images = { prefix = "15-ricardo-duenas-sinthmatic", count = 9 }

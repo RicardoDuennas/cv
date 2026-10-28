@@ -14,7 +14,8 @@ Datos:
     - clave_es / clave_en para textos traducidos; una clave sin sufijo vale para ambos.
     - *texto* = cursiva; una línea en blanco separa párrafos.
     - images = { prefix = "...", count = N } busca assets/jpg/<prefix>-01.jpg … -NN.jpg;
-      thumb es la miniatura en assets/jpg/tn/.
+      thumb es la ruta de la miniatura dentro de assets/jpg/ (p. ej. "tn/thumbnail-01-derivador.jpg").
+    - featured / also (site.toml) eligen el proyecto destacado y los tres pequeños del inicio.
     - sort ordena los proyectos (descendente); cv_es / cv_en los incluye en el CV.
 """
 import datetime
@@ -49,7 +50,21 @@ REDIRECTS = {'proys/acciones-directas.html': 'proys.html'}
 
 SOF_MARKERS = {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF}
 
+# Redes que se muestran en Contacto si están definidas en site.toml: (clave, etiqueta).
+SOCIAL = (('linkedin', 'LinkedIn'), ('behance', 'Behance'), ('instagram', 'Instagram'))
+
+THEME_ICONS = (
+    '<svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">'
+    '<path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5a7 7 0 0 0 10.7 10.7z" fill="none" stroke="currentColor" '
+    'stroke-width="1.5" stroke-linejoin="round"/></svg>'
+    '<svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">'
+    '<g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/>'
+    '<path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/>'
+    '</g></svg>'
+)
+
 warnings = []
+PENDING = set()  # imágenes enlazadas a propósito aunque aún no estén en el repo
 _listing = {}
 _sizes = {}
 
@@ -181,9 +196,9 @@ def load_projects():
             if missing:
                 warnings.append(f'{source.stem}: faltan {len(missing)} imágenes ({spec["prefix"]}-NN.jpg)')
 
-        project['thumb_path'] = None
+        project['thumb_path'] = project['thumb_declared'] = None
         if project.get('thumb'):
-            thumb = f"{JPG}/tn/{project['thumb']}"
+            thumb = project['thumb_declared'] = f"{JPG}/{project['thumb']}"
             if exists_exact(thumb):
                 project['thumb_path'] = thumb
             else:
@@ -198,15 +213,14 @@ def load_projects():
 def site_header(site, lang, page, alt_page, section):
     ui = site['ui'][lang]
     items = []
-    for number, key in enumerate(NAV, 1):
+    for key in NAV:
         target = PAGES[key][lang]
         current = ''
         if target == page:
             current = ' aria-current="page"'
         elif key == section:
             current = ' aria-current="true"'
-        items.append(f'<li><a href="{rel(page, target)}"{current}>'
-                     f'<span class="num">{number:02d}</span> {esc(ui["nav_" + key])}</a></li>')
+        items.append(f'<li><a href="{rel(page, target)}"{current}>{esc(ui["nav_" + key])}</a></li>')
 
     langs = []
     for code in LANGS:
@@ -231,12 +245,14 @@ def site_header(site, lang, page, alt_page, section):
 {chr(10).join(langs)}
 </ul>
 </nav>
+<button class="theme-toggle js-only" type="button" aria-pressed="false" aria-label="{esc(ui['theme_dark'])}" title="{esc(ui['theme_dark'])}">{THEME_ICONS}</button>
 </header>'''
 
 
 def site_footer(site):
     year = datetime.date.today().year
-    return f'<footer class="site-footer"><p class="mono">© {year} {esc(site["name"])}</p></footer>'
+    return (f'<footer class="site-footer"><div class="container">'
+            f'<p class="mono">© {year} {esc(site["name"])}</p></div></footer>')
 
 
 def render(site, lang, page, alt_page, title, description, content, section,
@@ -273,15 +289,21 @@ def sheet(rows):
     return f'<dl class="sheet">{body}</dl>' if body else ''
 
 
-def contact_links(site):
-    """(etiqueta, enlace) de correo, LinkedIn y GitHub; el texto visible es la URL legible."""
-    def display(url):
-        return url.split('://', 1)[1].removeprefix('www.').rstrip('/')
-    return [
-        ('email', f'<a href="mailto:{esc(site["email"])}">{esc(site["email"])}</a>'),
-        ('LinkedIn', f'<a href="{esc(site["linkedin"])}">{esc(display(site["linkedin"]))}</a>'),
-        ('GitHub', f'<a href="{esc(site["github"])}">{esc(display(site["github"]))}</a>'),
-    ]
+def profile_link(url):
+    """Enlace cuyo texto visible es la URL sin protocolo ni www."""
+    text = url.split('://', 1)[1].removeprefix('www.').rstrip('/')
+    return f'<a href="{esc(url)}">{esc(text)}</a>'
+
+
+def project_card(page, project, lang, lazy=True, heading='h2', compact=False):
+    """Tarjeta de proyecto; compact muestra solo el año (tarjetas pequeñas del inicio)."""
+    href = rel(page, project_path(project['slug'], lang))
+    meta = project.get('year', '') if compact else project_meta(project, lang)
+    return f'''<li class="card">
+<a href="{href}">{thumb_block(page, project, lang, lazy=lazy)}
+<{heading} class="card-title">{inline(project_title(project, lang))}</{heading}></a>
+<p class="card-meta mono">{esc(meta)}</p>
+</li>'''
 
 
 def project_title(project, lang):
@@ -293,9 +315,14 @@ def project_meta(project, lang):
     return ' · '.join(plain(p) for p in parts if p)
 
 
-def thumb_block(page, project, lang, lazy=True):
+def thumb_block(page, project, lang, lazy=True, pending=False):
+    """Miniatura 3:2. Con pending=True enlaza la miniatura declarada aunque aún no exista."""
     if project['thumb_path']:
         return f'<div class="thumb">{img(page, project["thumb_path"], "", lazy=lazy)}</div>'
+    if pending and project['thumb_declared']:
+        PENDING.add(project['thumb_declared'])
+        return (f'<div class="thumb"><img src="{rel(page, project["thumb_declared"])}" alt="" '
+                f'width="1200" height="800"></div>')
     return f'<div class="thumb placeholder" aria-hidden="true"><span>{esc(project_title(project, lang))}</span></div>'
 
 
@@ -304,15 +331,24 @@ def thumb_block(page, project, lang, lazy=True):
 def page_home(site, projects, lang):
     ui = site['ui'][lang]
     page, alt = PAGES['home'][lang], PAGES['home'][OTHER[lang]]
-    featured = next(p for p in projects if p['slug'] == site['featured'])
+    by_slug = {p['slug']: p for p in projects}
+    featured = by_slug[site['featured']]
     href = rel(page, project_path(featured['slug'], lang))
+    details = ' · '.join(x for x in (t(featured, 'cities', lang), featured.get('year')) if x)
+    more = '\n'.join(project_card(page, by_slug[slug], lang, heading='h3', compact=True) for slug in site['also'])
     content = f'''<h1 class="visually-hidden">{esc(site['name'])}</h1>
 <p class="tagline">{inline(t(site, 'tagline', lang))}</p>
 <figure class="feature">
-<a href="{href}" tabindex="-1" aria-hidden="true">{thumb_block(page, featured, lang, lazy=False)}</a>
+<a href="{href}" tabindex="-1" aria-hidden="true">{thumb_block(page, featured, lang, lazy=False, pending=True)}</a>
 <figcaption><span class="mono label">{esc(ui['featured'])}</span>
-<a href="{href}">{inline(project_title(featured, lang))}</a> <span class="mono">{esc(featured.get('year', ''))}</span></figcaption>
-</figure>'''
+<a href="{href}">{inline(project_title(featured, lang))}</a> <span class="mono">{esc(details)}</span></figcaption>
+</figure>
+<section class="more" aria-labelledby="more-title">
+<h2 id="more-title" class="mono label">{esc(ui['more'])}</h2>
+<ul class="grid-small">
+{more}
+</ul>
+</section>'''
     return render(site, lang, page, alt, site['name'], t(site, 'description', lang), content, 'home',
                   og_image=featured['thumb_path'])
 
@@ -363,7 +399,9 @@ def page_cv(site, projects, lang):
 
     skills = ''.join(f'<li>{esc(s)}</li>' for s in t(cv, 'skills', lang))
     tech = sheet([(t(row, 'label', lang), esc(row['items'])) for row in cv['tech']])
-    contacts = ''.join(f'<li>{value}</li>' for _, value in contact_links(site))
+    # El correo va como texto con la @ separada, sin enlace mailto.
+    email = esc(site['email'].replace('@', ' @ '))
+    contacts = f'<li>{email}</li><li>{profile_link(site["linkedin"])}</li>'
 
     content = f'''<header class="cv-head">
 <h1>{esc(site['full_name'])}</h1>
@@ -390,14 +428,7 @@ def page_cv(site, projects, lang):
 def page_projects(site, projects, lang):
     ui = site['ui'][lang]
     page, alt = PAGES['projects'][lang], PAGES['projects'][OTHER[lang]]
-    cards = []
-    for index, project in enumerate(projects):
-        href = rel(page, project_path(project['slug'], lang))
-        cards.append(f'''<li class="card">
-<a href="{href}">{thumb_block(page, project, lang, lazy=index >= 4)}
-<h2 class="card-title">{inline(project_title(project, lang))}</h2></a>
-<p class="card-meta mono">{esc(project_meta(project, lang))}</p>
-</li>''')
+    cards = [project_card(page, project, lang, lazy=index >= 4) for index, project in enumerate(projects)]
     content = f'''<h1>{esc(ui['nav_projects'])}</h1>
 <ul class="grid">
 {chr(10).join(cards)}
@@ -464,8 +495,8 @@ def page_project(site, project, lang):
 def page_contact(site, lang):
     ui = site['ui'][lang]
     page, alt = PAGES['contact'][lang], PAGES['contact'][OTHER[lang]]
-    links = contact_links(site)
-    rows = [(ui['email'] if label == 'email' else label, value) for label, value in links]
+    rows = [(ui['email'], f'<a href="mailto:{esc(site["email"])}">{esc(site["email"])}</a>')]
+    rows += [(label, profile_link(site[key])) for key, label in SOCIAL if site.get(key)]
     content = f'''<h1>{esc(ui['nav_contact'])}</h1>
 <p class="prose">{inline(t(site['contact'], 'intro', lang))}</p>
 {sheet(rows)}'''
@@ -506,6 +537,8 @@ def check_links(pages):
                 continue
             path = ref.split('#')[0].split('?')[0]
             target = posixpath.normpath(posixpath.join(posixpath.dirname(source), path))
+            if target in PENDING:
+                continue
             if target.startswith('..') or not exists_exact(target):
                 errors.append(f'{source}: {ref}')
     return errors
@@ -526,9 +559,12 @@ def main():
     pages.extend(page_redirect(site, page, target) for page, target in REDIRECTS.items())
 
     generated = set(pages)
-    for old in sorted((ROOT / 'proys').glob('*.html')):
-        if f'proys/{old.name}' not in generated:
-            warnings.append(f'proys/{old.name} no se generó (¿proyecto retirado sin redirección?)')
+    for folder in ('proys', 'en/projects'):
+        for old in sorted((ROOT / folder).glob('*.html')):
+            if f'{folder}/{old.name}' not in generated:
+                warnings.append(f'{folder}/{old.name} no se generó (¿proyecto retirado sin redirección?)')
+    for path in sorted(PENDING):
+        warnings.append(f'{path} se enlaza aunque aún no existe (imagen pendiente)')
 
     errors = check_links(pages)
     print(f'{len(pages)} páginas generadas.')

@@ -15,7 +15,7 @@ cv_es = "Participación en Proyecto 2415017 (V. 2.0)"
 cv_en = "Participation in Proyecto 2415017 (V. 2.0)"
 cv_date_es = "Sep 2017 – dic 2018"
 cv_date_en = "Sep 2017 – Dec 2018"
-thumb = "thumbnail-13-proyecto-2415017.jpg"
+thumb = "tn/thumbnail-13-proyecto-2415017.jpg"
 images = { prefix = "13-ricardo-duenas-proyecto-2415017-v-2-0", count = 3 }
 
 [[links]]
