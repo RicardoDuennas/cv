@@ -146,11 +146,6 @@ label_es = "Frameworks y plataformas"
 label_en = "Frameworks and platforms"
 items = "Linux, GitHub, Unity, WordPress, openFrameworks, Arduino, Raspberry Pi, Notion"
 
-[[cv.tech]]
-label_es = "Usadas en proyectos"
-label_en = "Used in projects"
-items = "Pure Data, Processing, Blender, NDI, ActionScript 3.0, PHP"
-
 [[cv.experience]]
 dates_es = "Mar 2026 – actual"
 dates_en = "Mar 2026 – present"
