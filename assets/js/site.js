@@ -38,6 +38,16 @@
     });
   }
 
+  // Correo protegido: la dirección llega invertida en data-email y aquí se convierte en enlace.
+  var emails = document.querySelectorAll('[data-email]');
+  for (var i = 0; i < emails.length; i++) {
+    var address = emails[i].getAttribute('data-email').split('').reverse().join('');
+    var link = document.createElement('a');
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+    emails[i].replaceWith(link);
+  }
+
   var print = document.querySelector('[data-print]');
   if (print) {
     print.addEventListener('click', function () {

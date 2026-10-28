@@ -498,7 +498,11 @@ def page_project(site, project, lang):
 def page_contact(site, lang):
     ui = site['ui'][lang]
     page, alt = PAGES['contact'][lang], PAGES['contact'][OTHER[lang]]
-    rows = [(ui['email'], f'<a href="mailto:{esc(site["email"])}">{esc(site["email"])}</a>')]
+    # Protección contra recolectores: el HTML no contiene la dirección; site.js arma el
+    # enlace mailto a partir de data-email (invertido). Sin JS se ve con la @ separada.
+    email = (f'<span data-email="{esc(site["email"][::-1])}">'
+             f'{esc(site["email"].replace("@", " @ "))}</span>')
+    rows = [(ui['email'], email)]
     rows += [(label, profile_link(site[key])) for key, label in SOCIAL if site.get(key)]
     content = f'''<h1>{esc(ui['nav_contact'])}</h1>
 <p class="prose">{inline(t(site['contact'], 'intro', lang))}</p>
