@@ -1,5 +1,23 @@
-// Menú desplegable en pantallas pequeñas y botón de impresión del CV.
+// Menú desplegable en pantallas pequeñas, cambio de tema y botón de impresión del CV.
 (function () {
+  var root = document.documentElement;
+  var theme = document.querySelector('.theme-toggle');
+  if (theme) {
+    theme.setAttribute('aria-pressed', String(root.dataset.theme === 'dark'));
+    theme.addEventListener('click', function () {
+      var dark = root.dataset.theme !== 'dark';
+      if (dark) {
+        root.dataset.theme = 'dark';
+      } else {
+        delete root.dataset.theme;
+      }
+      theme.setAttribute('aria-pressed', String(dark));
+      try {
+        localStorage.setItem('theme', dark ? 'dark' : 'light');
+      } catch (e) {}
+    });
+  }
+
   var toggle = document.querySelector('.menu-toggle');
   var nav = document.getElementById('site-nav');
 
