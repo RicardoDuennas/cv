@@ -340,7 +340,7 @@ def page_home(site, projects, lang):
     details = ' · '.join(x for x in (t(featured, 'cities', lang), featured.get('year')) if x)
     more = '\n'.join(project_card(page, by_slug[slug], lang, heading='h3', compact=True) for slug in site['also'])
     content = f'''<h1 class="visually-hidden">{esc(site['name'])}</h1>
-<p class="tagline">{inline(t(site, 'tagline', lang))}</p>
+<p class="tagline">{inline(t(site, 'tagline', lang)).replace(chr(10), '<br>')}</p>
 <figure class="feature">
 <a href="{href}" tabindex="-1" aria-hidden="true">{thumb_block(page, featured, lang, lazy=False, pending=True)}</a>
 <figcaption><span class="mono label">{esc(ui['featured'])}</span>
