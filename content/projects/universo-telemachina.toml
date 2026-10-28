@@ -1,0 +1,36 @@
+title = "Universo Telemachina"
+sort = "2022-04"
+year = "2022"
+date_es = "Abril 2022"
+date_en = "April 2022"
+place_es = "Web. Beca de Creación IDARTES 2021"
+place_en = "Web. 2021 IDARTES Creation Grant"
+role_es = "Programación del entorno en realidad virtual para la agrupación Telemachina"
+role_en = "Virtual reality environment programming for the band Telemachina"
+tech_es = "Unity, C#, Web; detección de colisiones y audio espacializado"
+tech_en = "Unity, C#, Web; collision detection and spatial audio"
+credits = "Telemachina"
+description_es = """
+Proyecto ganador de la Beca de Creación IDARTES 2021, de la agrupación Telemachina. “Éste es nuestro universo, sonidos que nos transportan a realidades alternas, imágenes que nos cuentan historias de un mundo paralelo, somos Telemachina, lo mejor está por descubrirse.”
+
+Navega por el espacio virtual y activa las pistas de sonido acercándote a las columnas de humo. Escucharás todas las pistas de la canción cuando enciendas todas las columnas.
+"""
+description_en = """
+Winner of the 2021 IDARTES Creation Grant, by the band Telemachina. “This is our universe: sounds that carry us to alternate realities, images that tell us stories of a parallel world. We are Telemachina, the best is yet to be discovered.”
+
+Navigate the virtual space and trigger the sound tracks by approaching the columns of smoke. You will hear every track of the song once all the columns are lit.
+"""
+cv_es = "Universo Telemachina"
+cv_en = "Universo Telemachina"
+thumb = "thumbnail-18-universo-telemachina.jpg"
+images = { prefix = "18-ricardo-duenas-universo-telemachina", count = 5 }
+
+[[links]]
+url = "https://ricardoduennas.github.io/telemachina/"
+label_es = "Abrir la experiencia"
+label_en = "Open the experience"
+
+[[links]]
+url = "https://www.facebook.com/profile.php?id=100081480480899"
+label_es = "Telemachina en Facebook"
+label_en = "Telemachina on Facebook"

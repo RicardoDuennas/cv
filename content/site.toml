@@ -1,0 +1,293 @@
+# Datos generales del sitio. Convención: clave_es / clave_en para textos traducidos;
+# una clave sin sufijo vale para ambos idiomas. *texto* se muestra en cursiva.
+
+name = "Ricardo Alfonzo Dueñas"
+full_name = "Ricardo Alfonzo Dueñas Parada"
+base_url = "https://ricardoduennas.github.io/cv/"
+email = "ricardoduennas@gmail.com"
+linkedin = "https://www.linkedin.com/in/ricardo-alfonzo-interaction-dev/"
+github = "https://github.com/ricardoduennas"
+featured = "la-voragine-mas-alla"
+
+tagline_es = "Ingeniero electrónico, programador de medios interactivos, docente de artes electrónicas, bailarín casual de tango."
+tagline_en = "Electronics engineer, interactive media programmer, electronic arts teacher, casual tango dancer."
+
+description_es = "Portafolio y CV de Ricardo Alfonzo Dueñas, ingeniero electrónico y desarrollador Unity: ingeniería aplicada a la creación artística, interacción, realidad virtual y artes electrónicas."
+description_en = "Portfolio and CV of Ricardo Alfonzo Dueñas, electronics engineer and Unity developer: engineering applied to artistic creation, interaction, virtual reality and electronic arts."
+
+[ui.es]
+language = "Español"
+nav_home = "Inicio"
+nav_info = "Info"
+nav_cv = "CV"
+nav_projects = "Proyectos"
+nav_contact = "Contacto"
+menu = "Menú"
+skip = "Saltar al contenido"
+main_nav = "Navegación principal"
+lang_nav = "Idioma"
+date = "Fecha"
+place = "Lugar"
+role = "Rol"
+tech = "Tecnologías"
+credits = "Créditos"
+links = "Enlaces"
+videos = "Videos"
+image = "imagen"
+of = "de"
+back = "Proyectos"
+video = "Video"
+print = "Imprimir CV"
+email = "Correo"
+portrait_alt = "Retrato de Ricardo Alfonzo Dueñas"
+featured = "Proyecto reciente"
+
+[ui.en]
+language = "English"
+nav_home = "Home"
+nav_info = "Info"
+nav_cv = "CV"
+nav_projects = "Projects"
+nav_contact = "Contact"
+menu = "Menu"
+skip = "Skip to content"
+main_nav = "Main navigation"
+lang_nav = "Language"
+date = "Date"
+place = "Venue"
+role = "Role"
+tech = "Technologies"
+credits = "Credits"
+links = "Links"
+videos = "Videos"
+image = "image"
+of = "of"
+back = "Projects"
+video = "Video"
+print = "Print CV"
+email = "Email"
+portrait_alt = "Portrait of Ricardo Alfonzo Dueñas"
+featured = "Recent project"
+
+[info]
+portrait = "assets/images/infoImg-RicardoDuenas.jpg"
+bio_es = """
+Ricardo Alfonzo Dueñas es un ingeniero electrónico colombiano que usa la tecnología como vehículo de experimentación para poner en relación el cuerpo y el dispositivo tecnológico a través del acto creativo. Desarrollador Unity y programador de entornos de interacción, ha colaborado en proyectos transdisciplinares que fusionan arte y tecnología: instalaciones interactivas, realidad virtual, formato full dome y robótica para artes escénicas.
+
+Una cercanía temprana con la danza contemporánea y otra más reciente y duradera con el tango hacen que la atención al cuerpo y al movimiento esté siempre presente en su exploración. Su experiencia en la pedagogía de las artes electrónicas lo ha llevado a trabajar en entornos donde la ciencia y la tecnología se entienden como medios de creación sensible.
+
+Se destaca por poner en diálogo diversas disciplinas al servicio de la creación artística y la pedagogía de las artes. Le apasiona el papel que la tecnología desempeña en las formas de crear y experimentar, y el rol de las agrupaciones como agentes de cambio social.
+"""
+bio_en = """
+Ricardo Alfonzo Dueñas is a Colombian electronics engineer who uses technology as a vehicle for experimentation, connecting the body and the technological device through the creative act. A Unity developer and interaction programmer, he has collaborated on transdisciplinary projects that merge art and technology: interactive installations, virtual reality, full dome formats and robotics for the performing arts.
+
+An early closeness to contemporary dance and a more recent, lasting one to tango keep attention to the body and movement present throughout his exploration. His experience in electronic arts education has led him to work in settings where science and technology are understood as means of sensitive creation.
+
+He stands out for bringing diverse disciplines into dialogue in the service of artistic creation and arts education. He is passionate about the role technology plays in the ways we create and experience, and about the role of collectives as agents of social change.
+"""
+
+[cv]
+headline_es = "Ingeniero electrónico · Bogotá, Colombia"
+headline_en = "Electronics engineer · Bogotá, Colombia"
+
+profile_title_es = "Perfil"
+profile_title_en = "Profile"
+profile_es = """
+Soy ingeniero electrónico apasionado por la tecnología como catalizador de las interacciones pedagógicas y vehículo de experimentación creativa. Tengo amplio conocimiento de Unity, programación para las artes y desarrollo de entornos de interacción. Mi experiencia en pedagogía y artes electrónicas me ha permitido colaborar en proyectos transdisciplinares que fusionan el arte y la tecnología, creando experiencias únicas e innovadoras.
+
+Me enfoco en poner en diálogo diversas disciplinas al servicio de la creación artística y la pedagogía de las artes. Me apasiona el papel que la tecnología desempeña en las formas de crear y experimentar y el rol de las agrupaciones como agentes de cambio social.
+"""
+profile_en = """
+I am an electronics engineer passionate about technology as a catalyst for educational interactions and a vehicle for creative experimentation. I have extensive knowledge of Unity, programming for the arts and the development of interactive environments. My experience in education and electronic arts has allowed me to collaborate on transdisciplinary projects that merge art and technology, creating unique and innovative experiences.
+
+I focus on bringing diverse disciplines into dialogue in the service of artistic creation and arts education. I am passionate about the role technology plays in the ways we create and experience, and about the role of collectives as agents of social change.
+"""
+
+experience_title_es = "Experiencia"
+experience_title_en = "Experience"
+education_title_es = "Educación superior"
+education_title_en = "Higher education"
+courses_title_es = "Otros estudios"
+courses_title_en = "Other studies"
+skills_title_es = "Habilidades e intereses"
+skills_title_en = "Skills and interests"
+art_title_es = "Experiencia artística"
+art_title_en = "Artistic experience"
+
+skills_es = [
+  "Desarrollo de software",
+  "Programación y electrónica para la creación artística",
+  "Diseño de interacción",
+  "Instalaciones de interacción",
+  "Desarrollo de software para realidades extendidas – XR",
+]
+skills_en = [
+  "Software development",
+  "Programming and electronics for artistic creation",
+  "Interaction design",
+  "Interactive installations",
+  "Software development for extended reality – XR",
+]
+
+[[cv.tech]]
+label_es = "Lenguajes"
+label_en = "Languages"
+items = "HTML/CSS, JavaScript, C++, C#, Python"
+
+[[cv.tech]]
+label_es = "Frameworks y plataformas"
+label_en = "Frameworks and platforms"
+items = "Linux, GitHub, Unity, WordPress, openFrameworks, Arduino, Raspberry Pi, Notion"
+
+[[cv.tech]]
+label_es = "Usadas en proyectos"
+label_en = "Used in projects"
+items = "Pure Data, Processing, Blender, NDI, ActionScript 3.0, PHP"
+
+[[cv.experience]]
+dates_es = "Abr 2025 – actual"
+dates_en = "Apr 2025 – present"
+org = "Universidad de Antioquia"
+role_es = "Desarrollador Unity – Pregrado en Creación Digital"
+role_en = "Unity Developer – Digital Creation undergraduate program"
+detail_es = "Desarrollo en Unity del metaverso del pregrado en Creación Digital. Programa de la Facultad de Artes en asocio con la Facultad de Comunicaciones y Filología."
+detail_en = "Unity development of the metaverse for the Digital Creation undergraduate program. Arts faculty program run in partnership with the Faculty of Communications and Philology."
+
+[[cv.experience]]
+dates_es = "Jul 2024 – actual"
+dates_en = "Jul 2024 – present"
+org = "Mapa Teatro – Laboratorio de imaginación social"
+role_es = "Ingeniero de interacción"
+role_en = "Interaction Engineer"
+detail_es = "Diseño y construcción de dispositivos y sistemas de interacción para obras de artes vivas."
+detail_en = "Design and construction of interaction devices and systems for live arts productions."
+
+[[cv.experience]]
+dates_es = "May 2019 – nov 2023"
+dates_en = "May 2019 – Nov 2023"
+org = "Instituto Distrital de las Artes – IDARTES"
+role_es = "Artista formador – Artes electrónicas"
+role_en = "Teaching Artist – Electronic Arts"
+detail_es = "Tallerista del grupo Acacia Code en tecnología creativa, desarrollo de sistemas de interacción y programación orientada a la creación (Scratch, Microbit, Arduino, Processing, HTML); tallerista en modelado e impresión 3D (Blender, SculptGL, Mozilla Hubs, Processing, Arduino); atención a más de 500 estudiantes en colegios públicos de Bogotá en programación creativa y artes electrónicas."
+detail_en = "Workshop leader for the Acacia Code group in creative technology, interaction systems and creative coding (Scratch, Micro:bit, Arduino, Processing, HTML); workshop leader in 3D modeling and printing (Blender, SculptGL, Mozilla Hubs, Processing, Arduino); taught more than 500 students in Bogotá public schools in creative coding and electronic arts."
+
+[[cv.experience]]
+dates_es = "Dic 2021"
+dates_en = "Dec 2021"
+org = "Banco de la República"
+role_es = "Mantenimiento y reparación de la obra *Proyecto 2415017 (V. 2.0)*, instalación sonora sobre la toma al Palacio de Justicia"
+role_en = "Maintenance and repair of the artwork *Proyecto 2415017 (V. 2.0)*, a sound installation about the Palace of Justice siege"
+
+[[cv.experience]]
+dates_es = "Ago 2021 – dic 2021"
+dates_en = "Aug 2021 – Dec 2021"
+org = "Editorial Santillana"
+role_es = "Autoría y creación de material impreso y digital en robótica para estudiante y docente"
+role_en = "Author of print and digital robotics materials for students and teachers"
+detail_es = "Material electrónico e impreso sobre robótica, pensamiento computacional e impresión 3D. Programa educativo SET 21."
+detail_en = "Digital and print materials on robotics, computational thinking and 3D printing for the SET 21 education program."
+
+[[cv.experience]]
+dates_es = "Ago 2018 – ene 2019"
+dates_en = "Aug 2018 – Jan 2019"
+org = "Fundación Villa Ananda"
+role_es = "Docente tallerista de Electrónica y Robótica para primera infancia – Metodología holística ASIRI"
+role_en = "Electronics and Robotics workshop teacher for early childhood – ASIRI holistic methodology"
+detail_es = "Formación a primera infancia en programación, pensamiento computacional y fundamentos de electrónica; diseño y puesta en práctica de la ruta de enseñanza de programación y robótica bajo la metodología Asiri."
+detail_en = "Taught programming, computational thinking and electronics fundamentals to young children; designed and implemented the programming and robotics learning path under the Asiri methodology."
+
+[[cv.experience]]
+dates_es = "Jul 2016 – ago 2016"
+dates_en = "Jul 2016 – Aug 2016"
+org = "Universidad Jorge Tadeo Lozano"
+role_es = "Diseñador y programador de dispositivos interactivos – Proyecto “Instrumentos de Creación Cívica Participativa y Visualización Colectiva de Problemáticas Asociadas al Territorio”"
+role_en = "Interactive device designer and programmer – “Instruments for Participatory Civic Creation and Collective Visualization of Territorial Issues” project"
+detail_es = "Diseño y construcción de dispositivos sonoros de interacción para el “Laboratorio de diseño de experiencia urbana”. Raspberry Pi, Python, Android."
+detail_en = "Designed and built interactive sound devices for the “Urban Experience Design Lab”. Raspberry Pi, Python, Android."
+
+[[cv.experience]]
+dates_es = "Jul 2014 – nov 2014"
+dates_en = "Jul 2014 – Nov 2014"
+org = "Secretaría de Educación de Bogotá – IED Pablo Neruda"
+role_es = "Profesor provisional"
+role_en = "Provisional teacher"
+detail_es = "Docente de tecnología para educación media."
+detail_en = "Technology teacher for upper secondary education (high school)."
+
+[[cv.education]]
+dates_es = "Nov 2026 – actual"
+dates_en = "Nov 2026 – present"
+org = "Universidad Internacional de la Rioja – UNIR, España"
+title_es = "Máster Universitario en Transformación Digital a través de Tecnologías Disruptivas"
+title_en = "Master’s Degree in Digital Transformation through Disruptive Technologies"
+
+[[cv.education]]
+dates_es = "Dic 2021"
+dates_en = "Dec 2021"
+org = "Universidad Externado de Colombia"
+title_es = "Especialización en Cooperación Internacional y Gestión de Proyectos para el Desarrollo"
+title_en = "Graduate Specialization in International Cooperation and Development Project Management"
+
+[[cv.education]]
+dates_es = "Ago 2011"
+dates_en = "Aug 2011"
+org = "Universidad Nacional de Colombia"
+title_es = "Ingeniería Electrónica"
+title_en = "B.Eng. Electronics Engineering"
+
+[[cv.courses]]
+dates_es = "Sep 2024"
+dates_en = "Sep 2024"
+org = "Generation Colombia"
+title_es = "Desarrollador Unity"
+title_en = "Unity Developer"
+
+[[cv.courses]]
+dates_es = "Ene 2020"
+dates_en = "Jan 2020"
+org = "IBM – Coursera"
+title = "Data Analysis with Python"
+
+[[cv.courses]]
+dates_es = "Ene 2020"
+dates_en = "Jan 2020"
+org = "Google Cloud – Coursera"
+title = "Google Cloud Platform Big Data and Machine Learning Fundamentals"
+
+[[cv.courses]]
+dates_es = "Ene 2020"
+dates_en = "Jan 2020"
+org = "UC San Diego – Coursera"
+title = "Machine Learning with Big Data"
+
+[[cv.courses]]
+dates_es = "Ene 2020"
+dates_en = "Jan 2020"
+org = "UAB – Coursera"
+title_es = "Big Data: Adquisición y almacenamiento de datos"
+title_en = "Big Data: Data Acquisition and Storage"
+
+[[cv.courses]]
+dates_es = "Oct 2018"
+dates_en = "Oct 2018"
+org = "SENA"
+title_es = "Inducción a Procesos Pedagógicos"
+title_en = "Introduction to Teaching Processes"
+
+[[cv.courses]]
+dates_es = "Oct 2018"
+dates_en = "Oct 2018"
+org = "SENA"
+title_es = "Formación Tecnopedagógica en Ambientes Virtuales de Aprendizaje Blackboard 9.1"
+title_en = "Techno-pedagogical Training in Blackboard 9.1 Virtual Learning Environments"
+
+[[cv.courses]]
+dates_es = "Nov 2014"
+dates_en = "Nov 2014"
+org = "Universidad Sergio Arboleda"
+title_es = "Diplomado en Diseño Curricular"
+title_en = "Diploma in Curriculum Design"
+
+[contact]
+intro_es = "Puedes escribirme por correo o encontrarme en LinkedIn y GitHub."
+intro_en = "You can reach me by email or find me on LinkedIn and GitHub."

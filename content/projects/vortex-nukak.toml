@@ -1,0 +1,25 @@
+title = "Vortex Nukak"
+sort = "2026"
+year = "2025–2026"
+date_es = "2025 – 2026"
+date_en = "2025 – 2026"
+place_es = "*Le Vortex Nukak* – Festival d'Automne, París, Francia (2025); *Vortex Nukak* – Theater der Welt, Chemnitz, Alemania (2026)"
+place_en = "*Le Vortex Nukak* – Festival d'Automne, Paris, France (2025); *Vortex Nukak* – Theater der Welt, Chemnitz, Germany (2026)"
+role_es = "Programación de robótica y performance en escena"
+role_en = "Robotics programming and on-stage performance"
+tech = "Raspberry Pi, OSC, Arduino, C++"
+credits = "Mapa Teatro"
+description_es = "Programación de robótica y performance en escena para la obra de gran formato *Vortex Nukak* de Mapa Teatro. París, Francia (2025). Chemnitz, Alemania (2026)."
+description_en = "Robotics programming and on-stage performance for Mapa Teatro's large-scale piece *Vortex Nukak*. Paris, France (2025). Chemnitz, Germany (2026)."
+cv_es = "Vortex Nukak (Mapa Teatro)"
+cv_en = "Vortex Nukak (Mapa Teatro)"
+thumb = "thumbnail-21-vortex-nukak.jpg"
+images = { prefix = "21-ricardo-duenas-vortex-nukak", count = 10 }
+
+[[links]]
+url = "https://www.festival-automne.com/en/edition-2025/mapa-teatro-le-vortex-nukak-la-voragine-mas-alla"
+label = "Festival d'Automne"
+
+[[links]]
+url = "https://www.theaterderwelt.de/programm/detail?tx_ccrepertoire_detail%5Baction%5D=detail&tx_ccrepertoire_detail%5Bcontroller%5D=Repertoire&tx_ccrepertoire_detail%5Bstageplay%5D=2764&cHash=c48123baf3fd1502c30897c3314ff861"
+label = "Theater der Welt"

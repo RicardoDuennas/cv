@@ -1,0 +1,18 @@
+title = "Respira Bogotá"
+sort = "2017-10"
+year = "2017"
+date_es = "Octubre 2017"
+date_en = "October 2017"
+place = "Transmilenio, Bogotá"
+role_es = "Performer, integrante del Colectivo ATOMUS"
+role_en = "Performer, member of Colectivo ATOMUS"
+tech_es = "Intervención en espacio público"
+tech_en = "Public space intervention"
+credits = "Colectivo ATOMUS"
+description_es = "Acción directa – intervención en espacio público del Colectivo ATOMUS en Transmilenio, Bogotá."
+description_en = "Direct action – public space intervention by Colectivo ATOMUS on Transmilenio, Bogotá."
+cv_es = "Respira Bogotá – Colectivo ATOMUS"
+cv_en = "Respira Bogotá – Colectivo ATOMUS"
+thumb = "thumbnail-14-bogota-respira.jpg"
+images = { prefix = "14-ricardo-duenas-bogota-respira", count = 8 }
+videos = ["https://player.vimeo.com/video/253684903?h=59432caa1b"]

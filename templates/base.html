@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="$lang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$title</title>
+<meta name="description" content="$description">
+<link rel="canonical" href="$canonical">
+<link rel="alternate" hreflang="$lang" href="$canonical">
+<link rel="alternate" hreflang="$alt_lang" href="$alt_url">
+<link rel="alternate" hreflang="x-default" href="$default_url">
+<meta property="og:type" content="$og_type">
+<meta property="og:site_name" content="$site_name">
+<meta property="og:title" content="$title">
+<meta property="og:description" content="$description">
+<meta property="og:url" content="$canonical">
+<meta property="og:image" content="$og_image">
+<meta property="og:locale" content="$og_locale">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="$title">
+<meta name="twitter:description" content="$description">
+<meta name="twitter:image" content="$og_image">
+<link rel="icon" href="${root}assets/images/logo.png" type="image/png">
+<link rel="preload" href="${root}assets/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="${root}assets/css/site.css">
+<script>document.documentElement.classList.add('js');</script>
+<script src="${root}assets/js/site.js" defer></script>
+</head>
+<body class="$body_class">
+<a class="skip" href="#main">$skip</a>
+$header
+<main id="main" tabindex="-1">
+$content
+</main>
+$footer
+</body>
+</html>

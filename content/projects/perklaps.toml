@@ -1,0 +1,30 @@
+title = "PerkLaps"
+sort = "2010"
+year = "2007–2010"
+date_es = "2007 – 2010"
+date_en = "2007 – 2010"
+place_es = "Conservatorio de Música – Universidad Nacional de Colombia"
+place_en = "Conservatory of Music – Universidad Nacional de Colombia"
+role_es = "Laptonero (electrónica)"
+role_en = "Laptop performer (electronics)"
+tech = "Pure Data"
+description_es = """
+El ensamble de percusión y electrónica PerkLaps nace en el año 2007 como una agrupación de interpretación e investigación en música contemporánea del Conservatorio de Música de la Universidad Nacional de Colombia. Se integró inicialmente por tres percusionistas sinfónicos (estudiantes: Shamir Camejo y Julio Pulido y el maestro Federico Demmer) y tres laptoneros (Andrés Ñañez, Mario Salazar y Ricardo Dueñas).
+
+Se presentaron en diferentes eventos de electrónica como el espacio cultural independiente matik-matik, el centro interactivo Maloka, en recitales de música de cámara como el ciclo de conciertos especiales en el auditorio Olav Roots y la sala Otto de Greiff de la Orquesta Filarmónica de Bogotá, y en presentaciones de música contemporánea como la Quinta semana Colombo Catalana, así como la grabación de la obra *Masacote* de Roberto García para el disco *5:09* de la Facultad de Artes de la Universidad Nacional de Colombia.
+"""
+description_en = """
+The percussion and electronics ensemble PerkLaps was founded in 2007 as a contemporary music performance and research group at the Conservatory of Music of the Universidad Nacional de Colombia. It was initially made up of three symphonic percussionists (students Shamir Camejo and Julio Pulido, and maestro Federico Demmer) and three laptop performers (Andrés Ñañez, Mario Salazar and Ricardo Dueñas).
+
+The ensemble performed at electronic music venues such as the independent cultural space matik-matik and the Maloka interactive center; at chamber music recitals such as the special concert series at the Olav Roots auditorium and the Otto de Greiff hall of the Bogotá Philharmonic Orchestra; and at contemporary music events such as the Fifth Colombian-Catalan Week. It also recorded Roberto García's *Masacote* for the album *5:09* by the Faculty of Arts of the Universidad Nacional de Colombia.
+"""
+cv_es = "PerkLaps"
+cv_en = "PerkLaps"
+thumb = "thumbnail-04-perklaps.jpg"
+images = { prefix = "04-ricardo-duenas-perklaps", count = 12 }
+videos = [
+  "https://player.vimeo.com/video/128841164?h=8aff396b9a",
+  "https://player.vimeo.com/video/128844401?h=9e5927ad62",
+  "https://player.vimeo.com/video/240911022?h=040f947adb",
+  "https://player.vimeo.com/video/128841163?h=fa3b5022ab",
+]

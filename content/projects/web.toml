@@ -1,0 +1,11 @@
+title = "Web"
+sort = "0000-1"
+place_es = "Varios clientes"
+place_en = "Various clients"
+role_es = "Programación back-end"
+role_en = "Back-end programming"
+tech = "HTML, CSS, JS, PHP"
+description_es = "Programación de back-end para páginas web."
+description_en = "Back-end programming for websites."
+thumb = "thumbnail-06-web.jpg"
+images = { prefix = "06-ricardo-duenas-web", count = 12 }

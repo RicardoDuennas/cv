@@ -1,0 +1,16 @@
+title_es = "Fuente – Instalación interactiva"
+title_en = "Fuente – Interactive installation"
+sort = "2007-1"
+year = "2007"
+date_es = "2007"
+date_en = "2007"
+role_es = "Desarrollo de software y hardware"
+role_en = "Software and hardware development"
+tech_es = "Arduino, audio multicanal, tratamiento de señal en vivo"
+tech_en = "Arduino, multichannel audio, live signal processing"
+credits = "Ricardo Alfonzo Dueñas"
+description_es = "Desarrollo de software y hardware para instalación interactiva, tratamiento de señal en vivo."
+description_en = "Software and hardware development for an interactive installation with live signal processing."
+thumb = "thumbnail-05-fuente.jpg"
+images = { prefix = "05-ricardo-duenas-fuente-instalacion-interactiva", count = 7 }
+videos = ["https://vimeo.com/253820889"]

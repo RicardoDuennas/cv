@@ -1,0 +1,18 @@
+title_es = "Obleas sonoras en San Basilio de Palenque"
+title_en = "Obleas sonoras in San Basilio de Palenque"
+sort = "2016-07"
+year = "2016"
+date_es = "Julio 2016"
+date_en = "July 2016"
+place = "San Basilio de Palenque, Bolívar"
+role_es = "Tallerista"
+role_en = "Workshop leader"
+tech_es = "Drawdio modificado, Arduino"
+tech_en = "Modified Drawdio, Arduino"
+description_es = "Taller de experimentación sonora con drawdio modificado y gastronomía orientado a jóvenes de San Basilio de Palenque."
+description_en = "Sound experimentation workshop combining a modified Drawdio and gastronomy, for young people in San Basilio de Palenque."
+cv_es = "Obleas sonoras"
+cv_en = "Obleas sonoras"
+thumb = "thumbnail-12-obleas-sonoras.jpg"
+images = { prefix = "12-ricardo-duenas-obleas-sonoras", count = 2 }
+videos = ["https://vimeo.com/192665267", "https://vimeo.com/192659362"]

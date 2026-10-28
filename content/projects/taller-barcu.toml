@@ -1,0 +1,12 @@
+title_es = "Taller sonoro en Barcú"
+title_en = "Sound workshop at Barcú"
+sort = "0000-3"
+place_es = "Feria de arte Barcú, Bogotá"
+place_en = "Barcú art fair, Bogotá"
+role_es = "Artista, tallerista"
+role_en = "Artist, workshop leader"
+tech = "Drawdio, Arduino"
+description_es = "Jugando con pinturas y sonidos electrónicos en la feria de arte Barcú."
+description_en = "Playing with paint and electronic sounds at the Barcú art fair."
+thumb = "thumbnail-09-taller-barcu.jpg"
+images = { prefix = "09-ricardo-duenas-pintura-y-sonido", count = 15 }

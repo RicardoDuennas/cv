@@ -1,0 +1,16 @@
+title_es = "Lanzamiento vajillas Corona"
+title_en = "Corona tableware launch"
+sort = "2012"
+year = "2012"
+date_es = "2012"
+date_en = "2012"
+place_es = "Puntos de activación en Home Center, Bogotá"
+place_en = "Activation points at Home Center, Bogotá"
+role_es = "Programador"
+role_en = "Programmer"
+tech = "QR"
+description_es = "Estaciones interactivas para el lanzamiento de la colección 2012 de vajillas Corona."
+description_en = "Interactive stations for the launch of Corona's 2012 tableware collection."
+thumb = "thumbnail-07-estaciones-corona.jpg"
+images = { prefix = "07-ricardo-duenas-estaciones-interactivas-corona", count = 8 }
+videos = ["https://vimeo.com/241049754"]

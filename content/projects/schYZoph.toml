@@ -1,0 +1,18 @@
+title = "schYZoph"
+sort = "2020-11-1"
+year = "2020"
+date_es = "Noviembre 2020"
+date_en = "November 2020"
+place_es = "Salón de Arte Crea 2020, Bogotá"
+place_en = "2020 Crea Art Salon, Bogotá"
+role_es = "Autoría y programación"
+role_en = "Author and programmer"
+tech = "Processing"
+credits = "Ricardo Alfonzo Dueñas"
+description_es = "Video instalación de arte generativo presentada en el Salón de Arte Crea 2020."
+description_en = "Generative art video installation presented at the 2020 Crea Art Salon."
+cv_es = "schYZoph"
+cv_en = "schYZoph"
+thumb = "thumbnail-16-schyzoph.jpg"
+images = { prefix = "16-ricardo-duenas-schyzoph", count = 1 }
+videos = ["https://player.vimeo.com/video/857583477?h=6b088382b6"]

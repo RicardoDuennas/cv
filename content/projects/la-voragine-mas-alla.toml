@@ -1,0 +1,21 @@
+title = "La Vorágine más allá"
+sort = "2025"
+year = "2024–2025"
+date_es = "2024 – 2025"
+date_en = "2024 – 2025"
+place_es = "Sala Fanny Mikey, Centro Nacional de las Artes Delia Zapata Olivella, Bogotá. FIAV 2024 y temporada 2025"
+place_en = "Sala Fanny Mikey, Centro Nacional de las Artes Delia Zapata Olivella, Bogotá. FIAV 2024 and 2025 season"
+role_es = "Diseño e implementación del sistema electrónico de interacción del organismo robótico móvil; programación de robótica y performance en escena"
+role_en = "Design and implementation of the electronic interaction system for the mobile robotic organism; robotics programming and on-stage performance"
+tech = "Raspberry Pi, C++"
+credits = "Mapa Teatro – Centro Nacional de las Artes"
+description_es = "Obra de artes vivas. Diseñé e implementé el sistema electrónico de interacción del organismo robótico móvil para la obra *La Vorágine más allá* del laboratorio de artistas Mapa Teatro, presentada en el FIAV 2024 y en temporada 2025."
+description_en = "Live arts piece. I designed and implemented the electronic interaction system for the mobile robotic organism in *La Vorágine más allá* by the artists' laboratory Mapa Teatro, presented at FIAV 2024 and in a 2025 season."
+cv_es = "La Vorágine más allá (Mapa Teatro – Centro Nacional de las Artes)"
+cv_en = "La Vorágine más allá (Mapa Teatro – Centro Nacional de las Artes)"
+thumb = "thumbnail-20-la-voragine-mas-alla.jpg"
+images = { prefix = "20-ricardo-duenas-la-voragine", count = 9 }
+
+[[links]]
+url = "https://www.fiavbogota.com/obras/la-voragine-mas-alla/"
+label = "FIAV Bogotá"

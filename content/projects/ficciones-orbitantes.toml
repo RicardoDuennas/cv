@@ -1,0 +1,39 @@
+title = "Ficciones orbitantes"
+sort = "2023-11"
+year = "2023"
+date_es = "Noviembre 2023"
+date_en = "November 2023"
+place_es = "Planetario de Bogotá y sede de Mapa Teatro. Laboratorio de Mapa Teatro en asocio con Plataforma Bogotá"
+place_en = "Bogotá Planetarium and Mapa Teatro's venue. Mapa Teatro lab in partnership with Plataforma Bogotá"
+role_es = "Programación de interacción para audiovisuales en formato full dome; participante del laboratorio"
+role_en = "Interaction programming for full dome audiovisuals; lab participant"
+tech = "openFrameworks, C++, Pure Data, NDI"
+credits_es = "Participantes: Daniel Arias Mutis, Daniela Bright, Diego Felipe Gaitán Lozano, Sara Idárraga Hamid, Miguel Marañas, Mery Rodríguez, Adriana Rojas Pretel, Gerrit Stollbrock, María Constanza Tovar, Justino Velandia, Ricardo Dueñas. Mapa Teatro: Ximena Vargas, Heidy Abderhalden, Rolf Abderhalden."
+credits_en = "Participants: Daniel Arias Mutis, Daniela Bright, Diego Felipe Gaitán Lozano, Sara Idárraga Hamid, Miguel Marañas, Mery Rodríguez, Adriana Rojas Pretel, Gerrit Stollbrock, María Constanza Tovar, Justino Velandia, Ricardo Dueñas. Mapa Teatro: Ximena Vargas, Heidy Abderhalden, Rolf Abderhalden."
+description_es = """
+Laboratorio de experimentación artística enfocado en el despliegue de las metodologías de Mapa Teatro y puestas en práctica con la creación de un artefacto poético como parte de una ficción especulativa. Dirigido por Mapa Teatro en asocio con Plataforma Bogotá.
+
+A lo largo de 10 sesiones, los 18 participantes se sumergieron en un ejercicio de ficción especulativa de largo alcance que culminó en la creación de un artefacto poético. Este dispositivo tendría la capacidad de vincular el espacio del planetario de Bogotá con la sede física de Mapa Teatro. Como resultado de este proceso, se desarrolló una propuesta performática diseñada específicamente para el formato full dome, que fue presentada durante el Festival.
+
+Utilizando como punto de partida el exitoso lanzamiento del segundo satélite colombiano, un hito que consolida la presencia espacial del país, este laboratorio de exploración artística exploró tres conceptos fundamentales: el cobijo, la orfandad y la saturación. Estas nociones organizan un conjunto de gestos y relatos ficcionales en los cuales la imagen, el sonido y las acciones delinean nuestra conexión con el espacio de la órbita satelital.
+
+Mi aporte: desarrollo interdisciplinar de un sistema interactivo de visualización y proyección sonora para formato full dome sobre protocolo de red NDI.
+"""
+description_en = """
+An artistic experimentation lab focused on deploying Mapa Teatro's methodologies through the creation of a poetic artifact within a speculative fiction. Directed by Mapa Teatro in partnership with Plataforma Bogotá.
+
+Over 10 sessions, the 18 participants immersed themselves in a long-range speculative fiction exercise that culminated in a poetic artifact able to link the Bogotá planetarium with Mapa Teatro's physical venue. The process produced a performative piece designed specifically for the full dome format, presented during the Festival.
+
+Taking as its starting point the successful launch of Colombia's second satellite, the lab explored three key concepts: shelter, orphanhood and saturation. These notions organize a set of gestures and fictional stories in which image, sound and action trace our connection to the space of satellite orbit.
+
+My contribution: interdisciplinary development of an interactive visualization and sound projection system for the full dome format over the NDI network protocol.
+"""
+cv_es = "Ficciones orbitantes (Laboratorio Mapa Teatro / Plataforma Bogotá)"
+cv_en = "Ficciones orbitantes (Mapa Teatro Lab / Plataforma Bogotá)"
+thumb = "thumbnail-19-ficciones-orbitantes.jpg"
+images = { prefix = "19-ricardo-duenas-ficciones-orbitantes", count = 17 }
+
+[[links]]
+url = "https://planetariodebogota.gov.co/programate/laboratorio-ficciones-orbitantes"
+label_es = "Planetario de Bogotá"
+label_en = "Bogotá Planetarium"
